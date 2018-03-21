@@ -10,8 +10,12 @@ namespace Zxcvbn_Password_CS
 {
     class Program
     {
+        /// <summary>
+        /// Demo of Dot net wrapper for zxcvbn Password strength library for dot net
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
-        { 
+        {
             Console.Write("Enter Password : ");
             string password = Console.ReadLine();
             Console.WriteLine("____________________\n\n");
