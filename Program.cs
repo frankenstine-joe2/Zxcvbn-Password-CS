@@ -11,7 +11,7 @@ namespace Zxcvbn_Password_CS
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
             Console.Write("Enter Password : ");
             string password = Console.ReadLine();
             Console.WriteLine("____________________\n\n");
